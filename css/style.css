@@ -1,6 +1,7 @@
 body{
     width: 1020px;
     background-color: cornflowerblue;
+    /* border: white 1px; */
 }
 
 .topnav {
@@ -40,32 +41,42 @@ div {
     display: inline-block;
 }
 
-/* .threeBoxes{
-    margin-top: 30px;
-    /* margin-left: 50px; */
-    /* margin-right: 30px;
-    display: inline-block;
-} */ */
-
 #bottombox{
-    /* width: 480px;
-    height: 400px; */
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 0px;
 
-    /* color: lightslategray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    border: solid white;
-    background-color: pink; */
+
 }
 p{
     font-size: 12pt;
 }
-section div{
+#bottomsection div{
     display: inline-block;
+    vertical-align: top;
 }
+
+
+
+.button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+
+.button:hover {
+    background-color: #4CAF50; 
+    color: black;
+  }
+
 
 footer{
     width: 1020px;
