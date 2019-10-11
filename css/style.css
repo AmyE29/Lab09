@@ -1,32 +1,24 @@
 body{
     width: 1020px;
-    background-color: cornflowerblue;
-    /* border: white 1px; */
+    /* background-color: cornflowerblue; */
 }
 
 .topnav {
     width: 1020px;
     height: 70x; 
     background-color: black;
-    /* margin: bottom 30px; */
-    /* display: inline-block; */
     vertical-align: top;
     margin-top: 0px;
 
 }
 .navitem {
-    /* position: relative; */
     display: inline-block;
-    /* border: 1px solid white; */
-    /* background-color: black; */
     color: lightslategray;
     width: 160px;
     height: 70px;
     text-align: center;
     vertical-align: top;
-    /* margin-top: 0px; */
     margin-left:30px;
-    /* margin: 0 auto; */
 }  
 
 div {
@@ -45,29 +37,29 @@ div {
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 0px;
-
-
 }
+
 p{
     font-size: 12pt;
 }
+
 #bottomsection div{
     display: inline-block;
     vertical-align: top;
 }
 
-
-
 .button{
+    position: absolute;
+    margin-top: 380px;
+    margin-left:30px;
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
+    padding: 0 10px;
+    font-size: 10pt;
     text-align: center;
     color: #fff;
-    text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
+    background-color: black;
     -webkit-transition-duration: 0.35s;
     transition-duration: 0.35s;
 }
@@ -76,7 +68,6 @@ p{
     background-color: #4CAF50; 
     color: black;
   }
-
 
 footer{
     width: 1020px;
